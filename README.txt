@@ -1,6 +1,4 @@
-/////////////////////
-Instruction Set Architecture
-/////////////////////
+#Instruction Set Architecture
 
 Addressing modes: 	immediate and displacement
 Data types: 		32-bit words
@@ -58,15 +56,11 @@ BREAK imm		| Cause a breakpoint exception
 TYPE 0 - store into leftmost reg
 TYPE 1 - store leftmost reg into memory location on rhs
 
-/////////////////////
-Compilation
-/////////////////////
+# Compilation
 
 javac *.java
 
-/////////////////////
-Execution
-/////////////////////
+# Execution
 
 java Simulator <filename> <[1/0] dynamic branch prediction on/off>
 
@@ -77,9 +71,7 @@ Note:
 Press enter to step through each clock cycle. 'f' and enter will finish the
 current program
 
-/////////////////////
-Test Programs
-/////////////////////
+# Test Programs
 
 branch_test.asm
 features.asm
@@ -90,9 +82,7 @@ renaming_test.asm
 vadd.asm
 vector_xor.asm
 
-/////////////////////
-Benchmarks
-/////////////////////
+# Benchmarks
 
 benchmark 1: fibsSSOptimised.asm
 
